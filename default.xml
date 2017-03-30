@@ -19,6 +19,10 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
+  <remote  name="twisted"
+           fetch="https://github.com/TWISTED-CAF"
+           revision="refs/heads/n7x" />
+
   <default revision="refs/tags/LA.UM.5.7.r1-08000-8x98.0"
            remote="caf"
            sync-j="4"
